@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="menue_parent" style="position: relative;">
+
+        <div style="background-color: pink; width: 400px;" class="menu_main">
+            ورزشی
+        </div>
+    
+       <div class="sub_menu" style="background-color: aqua; width: 400px;position: absolute; top:34px; display: none;">
+          <div> فوتبال </div>
+          <div> والیبال </div>
+          <div> بسکتبال </div>
+          <div> هندبال </div>
+       </div>
+
+    </div>
+
+   
+    
+</body>
+<style>
+
+
+   .menu_main:hover{
+      background-color: red !important;
+   }
+
+   .menue_parent:hover .sub_menu{
+    display: block !important;
+   }
+
+</style>
+</html>

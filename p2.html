@@ -1,0 +1,108 @@
+<html>
+  <head>
+    <title>welcoe to my site</title>
+  </head>
+
+  <body>
+    <div
+      class="headr_parent"
+      style="padding: 5px; background-color: #fc9; height: 100px"
+    >
+      <div class="header" style="background-color: aqua">
+        <div class="paretn_menu" style="position: relative; width: 79px">
+          <span class="menu" style="background-color: #ccc">menu 1</span>
+
+          <div
+            class="drop_down_menu"
+            style="background-color: pink; display: none"
+          >
+            <div>خبر ۱</div>
+            <div>خبر ۲</div>
+            <div>خبر ۳</div>
+          </div>
+        </div>
+      </div>
+      <div class="header" style="background-color: blueviolet">header</div>
+      <div class="header" style="background-color: rgb(43, 226, 171)">
+        header 3
+      </div>
+      <div class="header" style="background-color: rgb(226, 43, 134)">
+        header 4
+      </div>
+    </div>
+
+    <style>
+      .header {
+        /* display: inline-block;
+            width: 30%; */
+        /* display: flex; */
+      }
+
+      .headr_parent {
+        display: flex;
+      }
+    </style>
+
+    <div id="top_div" style="">test</div>
+
+    <div id="div_2" style="">test2</div>
+
+    <div>main _ top</div>
+
+    <div class="div_main" style="">main</div>
+
+    <div>main _ bottom</div>
+
+    <div class="cl1" style="">test 3</div>
+    <div class="cl1" style="">test 4</div>
+    <div class="cl1" style="">test 5</div>
+  </body>
+
+  <style>
+    * {
+      font-size: 24px;
+    }
+
+    #top_div {
+      background-color: aqua;
+      color: #00f;
+      margin-bottom: 25px;
+      margin-right: 50px;
+      margin-left: 50px;
+      margin-top: 100px;
+    }
+
+    .cl1 {
+      background-color: brown;
+      color: red;
+    }
+
+    .div_main {
+      background-color: rgba(68, 68, 182, 0.605);
+      /* margin-top: 10px;
+        margin-bottom: 30px;
+        margin-right: 50px;
+        margin-left: 80px; */
+
+      margin: 10px 50px 30px 80px;
+      padding: 10px 50px 10px 50px;
+    }
+
+    #div_2 {
+      background-color: palevioletred;
+      color: #00f;
+    }
+
+    .header {
+      flex: 1;
+    }
+
+    .menu:hover {
+      background-color: #fc9 !important;
+    }
+
+    .paretn_menu:hover .drop_down_menu {
+      display: block !important;
+    }
+  </style>
+</html>

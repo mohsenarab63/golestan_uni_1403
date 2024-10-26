@@ -1,0 +1,25 @@
+
+*{
+    font-size: 18px;
+}
+
+#job_history{
+    text-align: right;
+}
+
+
+#content{
+    display: flex;
+}
+#main{
+    background-color: #ccc;
+    flex:3;
+    padding: 20px;
+    
+
+}
+
+#sidebar{
+    background-color: greenyellow;
+    flex:1
+}
